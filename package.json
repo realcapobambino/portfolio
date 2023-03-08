@@ -8,7 +8,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.3.1",
+    "daisyui": "^2.51.3",
     "nuxt": "^3.1.2"
   }
 }
