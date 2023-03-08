@@ -2,7 +2,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                bungee: ['Bungee Shade', 'cursive']
+                bungee: ['Bungee Shade']
             },
         }
     },

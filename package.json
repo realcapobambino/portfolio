@@ -1,18 +1,22 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/google-fonts": "^2.0.0",
-    "@nuxtjs/tailwindcss": "^6.3.1",
-    "daisyui": "^2.51.3",
-    "nuxt": "^3.1.2",
-    "theme-change": "^2.5.0"
-  }
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxtjs/color-mode": "^3.2.0",
+		"@nuxtjs/google-fonts": "^3.0.0-1",
+		"@nuxtjs/tailwindcss": "^6.3.1",
+		"daisyui": "^2.51.3",
+		"nuxt": "^3.1.2",
+		"nuxt-icon": "^0.3.2",
+		"theme-change": "^2.5.0"
+	},
+	"dependencies": {
+		"animate.css": "^4.1.1"
+	}
 }
