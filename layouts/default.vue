@@ -169,10 +169,7 @@ const themes = [
     'winter',
 ]
 
-
-
-
-
+console.log(colorMode.preference)
 
 </script>
 

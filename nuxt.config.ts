@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts'],
   colorMode: {
     preference: 'system', // default theme
-    dataValue: 'theme', // activate data-theme in <html> tag
+    dataValue: 'theme', // activate data-theme specified in layouts/default.vue
+    fallback: 'night', // fallback theme
+
   },
   googleFonts: {
     families: {
