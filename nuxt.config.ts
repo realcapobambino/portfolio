@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts', '@nuxtjs/web-vitals'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts'],
   colorMode: {
-    preference: 'light', // default theme
+    preference: 'system', // default theme
     dataValue: 'theme', // activate data-theme in <html> tag
   },
   googleFonts: {
@@ -36,9 +36,5 @@ export default defineNuxtConfig({
     //
     //
   },
-  webVitals: {
-    ga: { id: 'G-9VRSYHQYH4' }
-  }
-
 
 })
