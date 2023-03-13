@@ -9,14 +9,14 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h16M4 18h7" />
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            class="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
                             <li><a href="/">Homepage</a></li>
                             <li><a href="portfolio">Portfolio</a></li>
                             <li><a href="about">About</a></li>
@@ -24,13 +24,13 @@
                     </div>
                 </div>
                 <div class="navbar-center">
-                    <a href="/" class="btn btn-link normal-case text-xl md:text-5xl font-bungee">Capo Bambino</a>
+                    <a href="/" class="text-xl normal-case btn btn-link md:text-5xl font-bungee">Capo Bambino</a>
 
                 </div>
                 <div class="navbar-end">
                     <!-- search icon -->
                     <!-- <button class="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -39,7 +39,7 @@
                     <!-- bell icon -->
                     <!-- <button class="btn btn-ghost btn-circle">
                         <div class="indicator">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
@@ -49,7 +49,7 @@
                     </button> -->
 
                     <form class="flex">
-                        <svg class="mt-1 pr-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <svg class="pr-1 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 22C6.49 22 2 17.51 2 12S6.49 2 12 2s10 4.04 10 9c0 3.31-2.69 6-6 6h-1.77c-.28 0-.5.22-.5.5c0 .12.05.23.13.33c.41.47.64 1.06.64 1.67A2.5 2.5 0 0 1 12 22zm0-18c-4.41 0-8 3.59-8 8s3.59 8 8 8c.28 0 .5-.22.5-.5a.54.54 0 0 0-.14-.35c-.41-.46-.63-1.05-.63-1.65a2.5 2.5 0 0 1 2.5-2.5H16c2.21 0 4-1.79 4-4c0-3.86-3.59-7-8-7z" />
@@ -58,7 +58,7 @@
                             <circle cx="14.5" cy="7.5" r="1.5" fill="currentColor" />
                             <circle cx="17.5" cy="11.5" r="1.5" fill="currentColor" />
                         </svg>
-                        <select class="select select-ghost select-xs mt-1" v-model="colorMode.preference">
+                        <select class="mt-1 select select-ghost select-xs" v-model="colorMode.preference">
                             <option disabled selected>Theme</option>
                             <option v-for="theme of themes" :key="theme">{{ theme }}
                             </option>
@@ -85,7 +85,7 @@
         <!-- Footer -->
         <!-- <AppFooter /> -->
 
-        <footer class="footer p-10 bg-neutral text-neutral-content ">
+        <footer class="p-10 footer bg-neutral text-neutral-content ">
             <div class="flex mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
                     <rect x="0" y="0" width="48" height="48" fill="none" stroke="none" />
