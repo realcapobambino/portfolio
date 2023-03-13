@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts', '@nuxtjs/web-vitals'],
   colorMode: {
     preference: 'light', // default theme
     dataValue: 'theme', // activate data-theme in <html> tag
@@ -12,10 +12,6 @@ export default defineNuxtConfig({
   },
 
   // 
-  //
-  // 
-  nitro: { prerender: { routes: ['/', '/portfolio', '/about'] } },
-
   // SEO and Meta
   app: {
     head: {
@@ -34,6 +30,15 @@ export default defineNuxtConfig({
         { name: 'google', content: 'notranslate' },
       ],
     },
+
   },
+  nitro: {
+    //
+    //
+  },
+  webVitals: {
+    ga: { id: 'G-9VRSYHQYH4' }
+  }
+
 
 })
