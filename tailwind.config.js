@@ -2,11 +2,12 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                bungee: ['Bungee Shade']
+                bungee: ['Bungee Shade'],
+                raleway: ['Raleway']
             },
         }
     },
-    plugins: [require("daisyui")],
+    plugins: [require("@tailwindcss/typography"), require("daisyui")],
     content: [
         'content/**/*.md',
         "./components/**/*.{js,vue,ts}",

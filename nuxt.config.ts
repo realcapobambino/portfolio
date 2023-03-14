@@ -2,13 +2,14 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts'],
   colorMode: {
-    preference: 'system', // default theme
+    preference: 'lofi', // default theme
     dataValue: 'theme', // activate data-theme specified in layouts/default.vue
     fallback: 'dark', // fallback theme
   },
   googleFonts: {
     families: {
       'Bungee+Shade': true,
+      'Raleway': true,
     },
   },
   // 
