@@ -5,14 +5,12 @@ export default defineNuxtConfig({
     preference: 'system', // default theme
     dataValue: 'theme', // activate data-theme specified in layouts/default.vue
     fallback: 'night', // fallback theme
-
   },
   googleFonts: {
     families: {
       'Bungee+Shade': true,
     },
   },
-
   // 
   // SEO and Meta
   app: {
@@ -32,11 +30,9 @@ export default defineNuxtConfig({
         { name: 'google', content: 'notranslate' },
       ],
     },
-
   },
   nitro: {
     //
     //
   },
-
 })

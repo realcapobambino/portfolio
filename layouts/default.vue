@@ -1,8 +1,6 @@
 <template>
     <div>
         <!-- <AppHeader /> -->
-
-
         <!-- navbar -->
         <div class="container mx-auto">
             <div class="navbar bg-base-100">
