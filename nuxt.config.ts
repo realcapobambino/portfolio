@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system', // default theme
     dataValue: 'theme', // activate data-theme specified in layouts/default.vue
-    fallback: 'night', // fallback theme
+    fallback: 'dark', // fallback theme
   },
   googleFonts: {
     families: {

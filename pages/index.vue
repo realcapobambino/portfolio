@@ -1,31 +1,40 @@
 <template>
     <div>
-        <div class="min-h-screen hero">
-            <div class="text-center hero-content">
-                <div class="max-w-md">
-                    <h1 class="pb-5 mb-1 text-4xl animate-pulse">Hey there!!</h1>
-                    <p class="text-2xl mb-7 pb-11">I am </p>
-                    <h1 class="text-5xl font-bold font-bungee animate__animated animate__bounce animate__slower">Charles
-                        Kariuki</h1>
-                    <div class="p-2 m-2 bg-black rounded-full animate__animated animate__zoomInUp"></div>
-
-                    <p class="py-6">Welcome to my developer portfolio, where creativity meets innovation. This site is
-                        currently under development, but stay tuned for some mind-blowing projects and a showcase of my
-                        technical skills.
-                    </p>
-
-                    <button class="btn btn-primary">Do Nothing</button>
-                </div>
+        <div class="min-h-screen">
+            <div class="container mx-auto">
+                <section class="flex flex-col items-center mt-12 mb-5 sm:justify-between sm:flex-row sm:mt-10 sm:mb-8">
+                    <div class="w-full text-left md:w-1/3">
+                        <h1
+                            class="text-3xl text-center uppercase font-general-semibold md:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light">
+                            Hello there, I am Charles
+                        </h1>
+                        <p
+                            class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left">
+                            A Full-Stack Web Developer &amp; Gaming Enthusiast
+                        </p>
+                        <!-- <div class="flex justify-center sm:block">
+                            <a download="Stoman-Resume.pdf" href="/files/cv.pdf"
+                                class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+                                aria-label="Download Resume"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="w-5 ml-0 mr-2 duration-100 feather feather-arrow-down-circle sm:ml-1 sm:mr-3 sm:w-6">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="8 12 12 16 16 12"></polyline>
+                                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                                </svg><span class="text-sm duration-100 sm:text-lg font-general-medium">Download
+                                    CV</span></a>
+                        </div> -->
+                    </div>
+                    <div class="float-right w-full text-right md:w-2/3">
+                        <img src="/img/dev2.jpg" alt="Developer" />
+                    </div>
+                </section>
             </div>
         </div>
-        <!-- <AppAlert>
-            This is an auto-imported component
-        </AppAlert> -->
     </div>
 </template>
 
 <script setup>
-
-
-
+import VueWriter from 'vue-writer'
 </script>

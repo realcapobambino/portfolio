@@ -74,6 +74,10 @@
         <!--  -->
         <!--  -->
         <!-- Main Page Content Goes Here -->
+
+
+
+
         <slot />
 
 
@@ -127,12 +131,7 @@
 </template>
 
 <script setup>
-
-
-
 import 'animate.css';
-
-
 
 const colorMode = useColorMode();
 const themes = [
@@ -167,7 +166,7 @@ const themes = [
     'winter',
 ]
 
-console.log(colorMode.preference)
+// console.log(colorMode.preference)
 
 </script>
 
