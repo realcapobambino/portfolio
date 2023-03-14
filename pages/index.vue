@@ -6,12 +6,12 @@
             <section class="flex flex-col items-center mt-10 mb-5 sm:justify-between sm:flex-row sm:mt-10 sm:mb-8">
                 <div class="w-full text-left md:w-1/3">
                     <h1
-                        class="text-4xl text-center font-raleway font-general-semibold md:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light">
+                        class="text-4xl text-center font-raleway font-general-semibold md:text-5xl xl:text-6xl sm:text-left text-ternary-dark dark:text-primary-light">
                         Hello there, I am Charles
                     </h1>
                     <VueWriter
                         class="mt-2 text-2xl leading-none text-center text-gray-400 font-raleway sm:text-xl xl:text-2xl sm:text-left"
-                        :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Entusiast']" />
+                        :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" />
                     <!-- <p
                         class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left">
                         A Full-Stack Web Developer &amp; Gaming Enthusiast
