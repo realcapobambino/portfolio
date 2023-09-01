@@ -8,18 +8,7 @@
                 <VueWriter
                     class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left"
                     :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" />
-                <!-- <div class="flex justify-center sm:block"><a download="Stoman-Resume.pdf"
-                            href="/files/Stoman-Resume.pdf"
-                            class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-                            aria-label="Download Resume"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="w-5 ml-0 mr-2 duration-100 feather feather-arrow-down-circle sm:ml-1 sm:mr-3 sm:w-6">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="8 12 12 16 16 12"></polyline>
-                                <line x1="12" y1="8" x2="12" y2="16"></line>
-                            </svg><span class="text-sm duration-100 sm:text-lg font-general-medium">Download CV</span></a>
-                    </div> -->
+                
             </div>
             <div class="float-right w-full text-right md:w-2/3">
                 <img src="/img/dev.svg" alt="Developer" />
@@ -80,19 +69,7 @@
             </div>
         </div>
     </section>
-    <!-- <section>
-        <div class="w-full">
-            <figure class="">
-                <div class=""><img
-                        src="https://openaicom.imgix.net/b11fba8c-c51f-41c1-95b8-cc55db89af49/gpt-4-motif.svg?fm=auto&amp;auto=compress,format&amp;fit=min&amp;w=1920&amp;h=480"
-                        alt="GPT-4 Line Motif" loading="lazy"
-                        sizes="(max-width: 744px) 100vw, (max-width: 1280px) 100vw, (max-width: 1440px) 100vw, 100vw"
-                        srcset="https://openaicom.imgix.net/b11fba8c-c51f-41c1-95b8-cc55db89af49/gpt-4-motif.svg?fm=auto&amp;auto=compress,format&amp;fit=min&amp;w=744&amp;h=186 744w, https://openaicom.imgix.net/b11fba8c-c51f-41c1-95b8-cc55db89af49/gpt-4-motif.svg?fm=auto&amp;auto=compress,format&amp;fit=min&amp;w=1280&amp;h=320 1280w, https://openaicom.imgix.net/b11fba8c-c51f-41c1-95b8-cc55db89af49/gpt-4-motif.svg?fm=auto&amp;auto=compress,format&amp;fit=min&amp;w=1440&amp;h=360 1440w, https://openaicom.imgix.net/b11fba8c-c51f-41c1-95b8-cc55db89af49/gpt-4-motif.svg?fm=auto&amp;auto=compress,format&amp;fit=min&amp;w=1920&amp;h=480 1920w"
-                        aria-hidden="false" class="w-full" width="300" height="75"></div>
-                <figcaption class="relative mt-8 f-caption-1"></figcaption>
-            </figure>
-        </div>
-    </section> -->
+   
 
     <section>
         <div class="container mx-auto">
@@ -144,16 +121,7 @@
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-                        <!-- <a href="" target="__blank"
-                            class="p-4 text-gray-400 duration-500 rounded-lg shadow-sm cursor-pointer hover:text-indigo-500 dark:hover:text-indigo-400 bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="w-5 h-5 feather feather-youtube sm:w-8 sm:h-8">
-                                <path
-                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-                                </path>
-                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                            </svg></a> -->
+                       
 
                     </ul>
                 </div>
