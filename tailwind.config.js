@@ -18,7 +18,7 @@ module.exports = {
             },
         }
     },
-    plugins: [require("@tailwindcss/typography"), require("daisyui")],
+    plugins: [require("@tailwindcss/typography")],
     content: [
         'content/**/*.md',
         "./components/**/*.{js,vue,ts}",
@@ -30,13 +30,5 @@ module.exports = {
     ],
 
     // daisyUI config (optional)
-    daisyui: {
-        styled: true,
-        themes: true,
-        base: true,
-        utils: true,
-        logs: true,
-        rtl: false,
-        prefix: "",
-    },
+    
 }

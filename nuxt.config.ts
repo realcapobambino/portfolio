@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', '@nuxtjs/google-fonts'],
   colorMode: {
-    preference: 'lofi', // default theme
+    preference: '', // default theme
     dataValue: 'theme', // activate data-theme specified in layouts/default.vue
-    fallback: 'dark', // fallback theme
+    fallback: '', // fallback theme
   },
   googleFonts: {
     families: {
@@ -20,7 +20,6 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Charles Wahome',
       meta: [
-        // <meta name="description" content="Charles Wahome is a software engineer and a web developer.">
         { name: 'description', content: 'Charles Wahome is a software engineer and a web developer.' },
         { name: 'keywords', content: 'Charles Wahome,  capo bambino, capo, bambino, Charles, Kariuki, Wahome, Charles Kariuki, Charles Kariuki Wahome ,software engineer, web developer, web designer, web developer in Kenya, software engineer in Kenya, web designer in Kenya' },
         { name: 'author', content: 'Charles Wahome' },
