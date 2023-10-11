@@ -1,6 +1,6 @@
 <template>
     <div class=" md:container md:mx-auto">
-        <section class="flex flex-col items-center mt-10 sm:justify-between sm:flex-row sm:mt-10 ">
+        <section class="flex flex-col items-center mt-10 justify-center gap-2 sm:flex-row sm:mt-10 ">
             <div class="w-full text-left md:w-1/3">
                 <h1
                     class="text-3xl text-center font-general-semibold md:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light">
@@ -10,7 +10,7 @@
                     :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" />
                 
             </div>
-            <div class="float-right w-full text-right md:w-2/3">
+            <div class="float-right w-full text-right md:w-1/3">
                 <img src="/img/dev.svg" alt="Developer" />
             </div>
         </section>
