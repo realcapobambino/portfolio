@@ -1,19 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', 'nuxt-icon', 
-  //'@nuxtjs/google-fonts'
+  modules: ['@nuxt/ui'
+    // '@nuxtjs / tailwindcss', '@nuxtjs / color - mode', 'nuxt - icon', 
+    //'@nuxtjs/google-fonts'
   ],
-  colorMode: {
-    preference: '', // default theme
-    dataValue: 'theme', // activate data-theme specified in layouts/default.vue
-    fallback: '', // fallback theme
-  },
-  // googleFonts: {
-  //   families: {
-  //     'Bungee+Shade': true,
-  //     'Raleway': true,
-  //   },
-  // },
   // 
   // SEO and Meta
   app: {

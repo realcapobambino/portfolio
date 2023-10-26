@@ -10,15 +10,9 @@
     "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/google-fonts": "^3.0.0-1",
-    "@nuxtjs/tailwindcss": "^6.3.1",
-    "@nuxtjs/web-vitals": "^0.2.2",
     "@tailwindcss/typography": "^0.5.9",
-    "gh-pages": "^5.0.0",
     "nuxt": "^3.7.4",
-    "nuxt-icon": "^0.3.2",
-    "theme-change": "^2.5.0"
+    "nuxt-icon": "^0.3.2"
   },
   "dependencies": {
     "@nuxt/ui": "^2.9.0",
