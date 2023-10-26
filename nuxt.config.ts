@@ -27,4 +27,7 @@ export default defineNuxtConfig({
     //
     //
   },
+  devtools: {
+    enabled: false // Disable devtools
+  }
 })

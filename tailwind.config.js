@@ -12,10 +12,10 @@ module.exports = {
             },
         },
         extend: {
-            fontFamily: {
-                bungee: ['Bungee Shade'],
-                raleway: ['Raleway']
-            },
+            // fontFamily: {
+            //     bungee: ['Bungee Shade'],
+            //     raleway: ['Raleway']
+            // },
         }
     },
     plugins: [require("@tailwindcss/typography")],
