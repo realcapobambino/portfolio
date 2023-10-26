@@ -3,15 +3,8 @@
     <!-- navbar -->
     <div class="md:container md:mx-auto pt-2">
         <div class="flex justify-between p-2">
-            <div class="flex">
-                <button type="button" class="bg-indigo-500 rounded-l-full" disabled>
-                    <div class=" hover:animate-spin ease-in-out duration-500 h-5 w-5 mr-3">
-                        <div class="p-2 m-2 bg-black rounded-full"></div>
-                    </div>
-                </button>
-                <div class="">
-                    <a href="/" class="text-xl normal-case md:text-5xl font-bungee">Capo Bambino</a>
-                </div>
+            <div class="flex">      
+               
             </div>           
             <div class="md:hidden">
                 <button>| LINKS |</button>
