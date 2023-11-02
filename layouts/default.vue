@@ -1,7 +1,7 @@
 <template>
-	<UContainer class="flex">
+	<UContainer>
 		<div class="">
-			<SideNav />
+			<NavBar />
 		</div>
 		<div>
 			<slot />
