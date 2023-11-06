@@ -6,6 +6,7 @@
 		<div>
 			<slot />
 		</div>
+		<Footer />
 	</UContainer>
 </template>
 

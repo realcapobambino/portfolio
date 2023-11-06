@@ -8,7 +8,7 @@
                 <VueWriter
                     class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left"
                     :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" />
-                
+
             </div>
             <div class="float-right w-full text-right md:w-1/3">
                 <img src="/img/dev.svg" alt="Developer" />
@@ -27,7 +27,7 @@
                 </div>
                 <div class="grid grid-cols-1 mt-6 sm:grid-cols-2 lg:grid-cols-3 sm:gap-10">
                     <a href="https://github.com/realcapobambino/freegames-express"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
                         aria-label="Single Project">
                         <div>
                             <img src="/img/nodejs.png" alt="Gamers' Haven" class="border-none rounded-t-xl">
@@ -41,7 +41,7 @@
                         </div>
                     </a>
                     <a href="https://github.com/realcapobambino/access-control-arduino"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
                         aria-label="Single Project">
                         <div>
                             <img src="/img/arduino.png" alt="Arduino Access Control" class="border-none rounded-t-xl">
@@ -53,7 +53,7 @@
                                 - Arduino, C++</span>
                         </div>
                     </a><a href="https://github.com/realcapobambino/ip-tracker-vue3"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
                         aria-label="Single Project">
                         <div><img src="/img/vue.png" alt="Project Management UI" class="border-none rounded-t-xl">
                         </div>
@@ -69,7 +69,7 @@
             </div>
         </div>
     </section>
-   
+
 
     <section>
         <div class="container mx-auto">
@@ -121,7 +121,7 @@
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-                       
+
 
                     </ul>
                 </div>
