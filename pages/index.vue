@@ -54,7 +54,7 @@
                                 - Arduino, C++</span>
                         </div>
                     </a><a href="https://github.com/realcapobambino/ip-tracker-vue3"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:shadow-2xl sm:mb-0 bg-secondary-light"
                         aria-label="Single Project">
                         <div><img src="/img/vue.png" alt="Project Management UI" class="border-none rounded-t-xl">
                         </div>

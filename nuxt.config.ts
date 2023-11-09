@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', '@nuxtjs/supabase',
-
-
-  ],
-  // 
+  modules: ['@nuxtjs/supabase', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode',],
+  css: ['~/assets/css/tailwind.css'],
   // SEO and Meta
   app: {
     head: {
@@ -26,6 +23,20 @@ export default defineNuxtConfig({
   nitro: {
     //
     //
+  },
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '',
+    storageKey: 'nuxt-color-mode'
+  }
+  ,
+  supabase: {
+    redirect: false,
   },
   devtools: {
     enabled: false // Disable devtools
