@@ -3,11 +3,12 @@
         <section class="flex flex-col items-center mt-10 justify-center gap-2 sm:flex-row sm:mt-10 ">
             <div class="w-full text-left md:w-1/3">
                 <h1
-                    class="text-3xl text-center font-general-semibold md:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light">
-                    Hello there, I am Charles </h1>
+                    class="text-3xl text-center  md:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light">
+                    Hello there, I am <strong> Charles Kariuki Wahome</strong> </h1>
                 <VueWriter
                     class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left"
-                    :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" />
+                    :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" :eraseSpeed="50"
+                    :typeSpeed="100" />
 
             </div>
             <div class="float-right w-full text-right md:w-1/3">
@@ -134,4 +135,7 @@
 
 <script setup>
 import VueWriter from 'vue-writer'
+
+
+
 </script>

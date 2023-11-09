@@ -1,5 +1,16 @@
 module.exports = {
     theme: {
+        screens: {
+
+            sm: '640px',
+
+            md: '768px',
+
+            lg: '1024px',
+
+            xl: '1280px',
+
+        },
         container: {
             center: true,
             padding: {
@@ -18,7 +29,11 @@ module.exports = {
             // },
         }
     },
-    plugins: [require("@tailwindcss/typography")],
+    plugins: [
+        require("@tailwindcss/typography"),
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/aspect-ratio'), require('tailwindcss-children'),
+    ],
     content: [
         'content/**/*.md',
         "./components/**/*.{js,vue,ts}",
@@ -29,6 +44,9 @@ module.exports = {
         "./app.vue",
     ],
 
-    // daisyUI config (optional)
-    
+    purge: [
+        './src/**/*.html',
+        './src/**/*.vue',
+    ]
+
 }
