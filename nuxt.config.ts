@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui'
-    // '@nuxtjs / tailwindcss', '@nuxtjs / color - mode', 'nuxt - icon', 
-    //'@nuxtjs/google-fonts'
+  modules: ['@nuxt/ui',
+
+
   ],
   // 
   // SEO and Meta
