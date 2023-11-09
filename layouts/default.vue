@@ -1,8 +1,5 @@
 <template>
-	<div :class="{
-		'theme-light': !darkMode,
-		'theme-dark': darkMode,
-	}" class="h-screen bg-themeBackground p-5">">
+	<div class="">
 		<NavBar />
 	</div>
 	<div>

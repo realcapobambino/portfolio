@@ -1,39 +1,27 @@
-<template>
-    <div></div>
-    <Toggle v-model="darkMode" off-label="Light" on-label="Dark" />
-</template>
+<script setup>
+const colorMode = useColorMode()
 
-<script setup lang="ts">
-import Toggle from '@vueform/toggle'
-import { useState } from '#app'
-import { onMounted, watch } from '@vue/runtime-core'
-
-type Theme = 'light' | 'dark'
-
-const LOCAL_STORAGE_THEME_KEY = 'theme'
-
-const darkMode = useState('theme', () => false)
-
-const setTheme = (newTheme: Theme) => {
-    localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme)
-    darkMode.value = newTheme === 'dark'
+const toggleColorMode = () => {
+    colorMode.toggle()
 }
 
-onMounted(() => {
-    const isDarkModePreferred = window.matchMedia('(prefers-color-scheme: dark)').matches
 
-    const themeFromLocalStorage = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme
-
-    if (themeFromLocalStorage) {
-        setTheme(themeFromLocalStorage)
-    } else {
-        setTheme(isDarkModePreferred ? 'dark' : 'light')
-    }
-})
-
-watch(darkMode, (selected) => {
-    setTheme(selected ? 'dark' : 'light')
-})
 </script>
 
-<style src="@vueform/toggle/themes/default.css"></style>
+<template>
+    <div>
+        <!-- <button @click="toggleColorMode" class="btn">Toggle {{ colorMode.preference }}</button> -->
+        <select v-model="colorMode.preference"
+            class="border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700">
+            <option value="system">System</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+    </div>
+</template>
+
+<style lang="postcss">
+body {
+    @apply min-h-screen bg-white dark:bg-gray-800 dark:text-gray-200;
+}
+</style>

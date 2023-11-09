@@ -18,7 +18,6 @@
                     <nuxt-link to="/about"
                         class=" before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-violet-600 relative inline-block hover:bg-white">
                         <span class="relative text-white font-bold">About</span> </nuxt-link>
-
                 </div>
                 <div class="md:hidden flex">
                     <!-- Display a responsive menu button on small screens (md and smaller screens) -->
@@ -36,9 +35,7 @@
                     <nuxt-link to="/projects" class="block text-black dark:text-white text-lg mb-2">Projects</nuxt-link>
                     <nuxt-link to="/about" class="block text-black dark:text-white text-lg mb-2">About</nuxt-link>
                 </div>
-                <div class="mx-4">
-                    <ColorModeButton class="" />
-                </div>
+                <ColorModeButton class="mt-14 w-64" />
             </div>
         </nav>
     </div>
