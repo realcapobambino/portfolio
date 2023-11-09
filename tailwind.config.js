@@ -23,16 +23,13 @@ module.exports = {
             },
         },
         extend: {
-            // fontFamily: {
-            //     bungee: ['Bungee Shade'],
-            //     raleway: ['Raleway']
-            // },
+
         }
     },
     plugins: [
         require("@tailwindcss/typography"),
         require('@tailwindcss/forms'),
-        require('@tailwindcss/aspect-ratio'), require('tailwindcss-children'),
+        require('@tailwindcss/aspect-ratio'),
     ],
     content: [
         'content/**/*.md',
@@ -43,10 +40,5 @@ module.exports = {
         "./nuxt.config.{js,ts}",
         "./app.vue",
     ],
-
-    purge: [
-        './src/**/*.html',
-        './src/**/*.vue',
-    ]
 
 }

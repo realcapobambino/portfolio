@@ -1,3 +1,25 @@
+<script setup>
+useSupabaseAuthClient()
+const email = ref("")
+const password = ref(null)
+const errorMsg = ref(null)
+const successMsg = ref(null)
+
+async function signUp() {
+    try {
+        const { date, error } = await client.auth.signUp({
+            email: email.value,
+            password: password.value
+        })
+        if (error) throw error
+        successMsg.value = "Check your email for confirmation"
+    } catch (error) {
+        errorMsg.value = error.message
+    }
+}
+
+</script>
+
 <template>
     <div class="bg-white dark:bg-gray-700 font-family-karla h-screen">
 
@@ -21,8 +43,9 @@
                         </div>
 
                         <input type="submit" value="Log In"
-                            class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8">
+                            class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8" @click="signUp()">
                     </form>
+                    div
 
                 </div>
 
@@ -36,8 +59,6 @@
     </div>
 </template>
 
-<script setup>
 
-</script>
 
 <style lang="scss" scoped></style>
