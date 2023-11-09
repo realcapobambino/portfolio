@@ -1,3 +1,7 @@
+<script setup>
+import VueWriter from 'vue-writer'
+</script>
+
 <template>
     <div class=" md:container md:mx-auto">
         <section class="flex flex-col items-center mt-10 justify-center gap-2 sm:flex-row sm:mt-10 ">
@@ -8,7 +12,7 @@
                 <VueWriter
                     class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left"
                     :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" :eraseSpeed="50"
-                    :typeSpeed="100" />
+                    :typeSpeed="100" :caret="underscore" />
 
             </div>
             <div class="float-right w-full text-right md:w-1/3">
@@ -133,9 +137,47 @@
     </section>
 </template>
 
-<script setup>
-import VueWriter from 'vue-writer'
 
+<style scoped>
+.is-typed {
+    font-family: 'Monaco';
+}
 
+.is-typed span.typed {
+    colour: black;
+}
 
-</script>
+.is-typed span.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    animation: blink 1s infinite;
+}
+
+.is-typed span.underscore {
+    display: inline-flex;
+    width: 10px;
+    height: 1px;
+    align-items: flex-end;
+    background-color: black;
+    animation: blink 1s infinite;
+}
+
+.is-typed span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    49% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+}
+</style>

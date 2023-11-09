@@ -9,10 +9,10 @@ const toggleColorMode = () => {
 </script>
 
 <template>
-    <div>
-        <!-- <button @click="toggleColorMode" class="btn">Toggle {{ colorMode.preference }}</button> -->
+    <div class="">
         <select v-model="colorMode.preference"
-            class="border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700">
+            class="  text-gray-600 h-10 pl-5 pr-10 bg-white  focus:outline-none appearance-none dark:bg-gray-900 dark:text-white dark:border-gray-700 border-0">
+            <option value="">Theme</option>
             <option value="system">System</option>
             <option value="light">Light</option>
             <option value="dark">Dark</option>

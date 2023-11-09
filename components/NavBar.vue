@@ -35,7 +35,7 @@
                     <nuxt-link to="/projects" class="block text-black dark:text-white text-lg mb-2">Projects</nuxt-link>
                     <nuxt-link to="/about" class="block text-black dark:text-white text-lg mb-2">About</nuxt-link>
                 </div>
-                <ColorModeButton class="mt-14 w-64" />
+                <ColorModeButton class="mx-2 w-64" />
             </div>
         </nav>
     </div>

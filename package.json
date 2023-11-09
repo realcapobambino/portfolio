@@ -20,6 +20,7 @@
     "@nuxtjs/tailwindcss": "^6.9.4",
     "@vueform/toggle": "^2.1.4",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "html-color-names": "^0.3.2",
     "vue-writer": "^1.2.0"
   }
