@@ -1,5 +1,7 @@
 <script setup>
 import VueWriter from 'vue-writer'
+
+
 </script>
 
 <template>
@@ -20,19 +22,20 @@ import VueWriter from 'vue-writer'
             </div>
         </section>
     </div>
+
     <section class="md:py-5 md:my-5">
         <div class="container">
-            <div>
-                <div class="text-center">
-                    <p class="mb-2 text-2xl font-semibold font-general-semibold sm:text-5xl text-ternary-dark ">
-                        Projects Portfolio</p>
-                </div>
-                <div class="text-center">
-                    <p class="mb-2 text-xl">Below are some of the projects I have worked on:</p>
-                </div>
-                <div class="grid grid-cols-1 mt-6 sm:grid-cols-2 lg:grid-cols-3 sm:gap-10">
+            <div class="text-center">
+                <p class="mb-2 text-2xl font-semibold font-general-semibold sm:text-5xl text-ternary-dark ">
+                    Projects Portfolio</p>
+            </div>
+            <div class="text-center">
+                <p class="mb-2 text-xl">Below are some of the projects I have worked on:</p>
+            </div>
+            <div class="flex">
+                <div>
                     <a href="https://github.com/realcapobambino/freegames-express"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light w-1/2"
                         aria-label="Single Project">
                         <div>
                             <img src="/img/nodejs.png" alt="Gamers' Haven" class="border-none rounded-t-xl">
@@ -45,8 +48,10 @@ import VueWriter from 'vue-writer'
                                 Application - NodeJs, ExpressJs, Tailwind </span>
                         </div>
                     </a>
+                </div>
+                <div>
                     <a href="https://github.com/realcapobambino/access-control-arduino"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light w-1/2"
                         aria-label="Single Project">
                         <div>
                             <img src="/img/arduino.png" alt="Arduino Access Control" class="border-none rounded-t-xl">
@@ -57,8 +62,12 @@ import VueWriter from 'vue-writer'
                             <span class="text-lg font-general-medium text-ternary-dark ">Hardware(IoT)
                                 - Arduino, C++</span>
                         </div>
-                    </a><a href="https://github.com/realcapobambino/ip-tracker-vue3"
-                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl  hover:shadow-2xl sm:mb-0 bg-secondary-light"
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://github.com/realcapobambino/ip-tracker-vue3"
+                        class="mb-10 duration-500 shadow-lg cursor-pointer rounded-xl hover:grayscale-0 grayscale hover:shadow-2xl sm:mb-0 bg-secondary-light w-1/2"
                         aria-label="Single Project">
                         <div><img src="/img/vue.png" alt="Project Management UI" class="border-none rounded-t-xl">
                         </div>
@@ -72,9 +81,10 @@ import VueWriter from 'vue-writer'
                     </a>
                 </div>
             </div>
+
+
         </div>
     </section>
-
 
     <section>
         <div class="container mx-auto">
@@ -126,14 +136,10 @@ import VueWriter from 'vue-writer'
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-
-
                     </ul>
                 </div>
-
             </div>
         </div>
-
     </section>
 </template>
 
