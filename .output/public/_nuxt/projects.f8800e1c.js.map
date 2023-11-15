@@ -1,0 +1,1 @@
+{"version":3,"file":"projects.f8800e1c.js","sources":["../../../../pages/projects.vue"],"sourcesContent":["<template>\n\n<div>\n    <div>\n        <h1> PROJECTS PAGE</h1>\n    </div>\n</div>\n\n</template>"],"names":["_hoisted_1","_createElementVNode","_hoisted_2","_cache"],"mappings":"wEAIQA,EAAAC,EAAkB,MAAA,KAAA,oCAChBC,EAAA,iBACJC,EAAA"}
