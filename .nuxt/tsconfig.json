@@ -47,9 +47,6 @@
       "assets": [
         "../assets"
       ],
-      "assets/*": [
-        "../assets/*"
-      ],
       "public": [
         "../public"
       ],
@@ -64,12 +61,6 @@
       ],
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
-      ],
-      "#color-mode-options": [
-        "./color-mode-options.mjs"
-      ],
-      "#robots": [
-        "./robots"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -91,27 +82,14 @@
   "include": [
     "./nuxt.d.ts",
     "../**/*",
-    "../node_modules/@nuxtjs/supabase/runtime",
-    "../node_modules/@nuxtjs/tailwindcss/runtime",
-    "../node_modules/@nuxtjs/color-mode/runtime",
-    "../node_modules/nuxt-aos/runtime",
-    "../node_modules/nuxt-site-config/dist/runtime",
-    "../node_modules/nuxt-simple-sitemap/runtime",
-    "../node_modules/@nuxtjs/robots/runtime",
+    "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
   ],
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
-    "../node_modules/nuxt-site-config/dist",
-    "../node_modules/@nuxtjs/supabase/runtime/server",
-    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
-    "../node_modules/@nuxtjs/color-mode/runtime/server",
-    "../node_modules/nuxt-aos/runtime/server",
-    "../node_modules/nuxt-site-config/dist/runtime/server",
-    "../node_modules/nuxt-simple-sitemap/runtime/server",
-    "../node_modules/@nuxtjs/robots/runtime/server",
+    "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
     "../.output"

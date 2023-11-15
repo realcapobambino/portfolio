@@ -45,35 +45,17 @@
       "assets": [
         "../assets"
       ],
-      "assets/*": [
-        "../assets/*"
-      ],
       "public": [
         "../public"
       ],
       "public/*": [
         "../public/*"
-      ],
-      "#color-mode-options": [
-        "./color-mode-options"
-      ],
-      "#robots": [
-        "./robots"
-      ],
-      "#supabase/server": [
-        "../node_modules/@nuxtjs/supabase/dist/runtime/server/services/index"
       ]
     }
   },
   "include": [
     "./types/nitro-nuxt.d.ts",
-    "../node_modules/@nuxtjs/supabase/runtime/server",
-    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
-    "../node_modules/@nuxtjs/color-mode/runtime/server",
-    "../node_modules/nuxt-aos/runtime/server",
-    "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
-    "../node_modules/nuxt-simple-sitemap/runtime/server",
-    "../node_modules/@nuxtjs/robots/runtime/server",
+    "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",
     "../**/*",
@@ -82,7 +64,6 @@
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
-    "../node_modules/nuxt-site-config/dist",
     "../dist"
   ]
 }
