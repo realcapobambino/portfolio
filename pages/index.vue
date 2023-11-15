@@ -1,5 +1,15 @@
-<script setup>
+<script>
 import VueWriter from 'vue-writer'
+
+
+export default {
+    data() {
+        return {
+            animatedText: ['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']
+        }
+    }
+}
+
 
 
 </script>
@@ -13,9 +23,7 @@ import VueWriter from 'vue-writer'
                     Hello there, I am <strong> Charles Kariuki Wahome</strong> </h1>
                 <VueWriter
                     class="mt-2 text-lg leading-none text-center text-gray-400 font-general-medium sm:text-xl xl:text-2xl sm:text-left"
-                    :array="['Full-Stack Developer', 'Linux Enthusiast', 'Gaming Enthusiast']" :eraseSpeed="50"
-                    :typeSpeed="100" :caret="underscore" />
-
+                    :array="animatedText" :eraseSpeed="50" :typeSpeed="100" />
             </div>
             <div class="float-right w-full text-right md:w-1/3">
                 <img src="/img/dev.svg" alt="Developer" />
@@ -145,7 +153,7 @@ import VueWriter from 'vue-writer'
 
 
 <style scoped>
-.is-typed {
+/* .is-typed {
     font-family: 'Monaco';
 }
 
@@ -185,5 +193,5 @@ import VueWriter from 'vue-writer'
     99% {
         background-color: transparent;
     }
-}
+} */
 </style>
