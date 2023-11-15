@@ -2,11 +2,21 @@
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["src/**/__tests__/*"],
+  // 
+  //
+  "skipLibCheck": true,
+  "strict": true,
+  "sourceMap": true,
+  //
   "compilerOptions": {
     "composite": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      //
+      //
+      "@assets/*": ["src/assets/*"],
+      "@Modules/*": ["src/App/Modules/*"]
     }
   }
 }
