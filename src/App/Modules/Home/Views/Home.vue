@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HeroComponent from "../Components/HeroComponent.vue"
-import MainLayout from "../../../Common/Components/Layout/MainLayout.vue"
+import MainLayout from "../../../Common/Components/Layouts/MainLayout.vue"
 
 
 </script>
@@ -11,7 +11,7 @@ import MainLayout from "../../../Common/Components/Layout/MainLayout.vue"
         <template>
 
             <!--  -->
-            <HeroComponent></HeroComponent>
+            <!-- <HeroComponent></HeroComponent> -->
 
         </template>
 

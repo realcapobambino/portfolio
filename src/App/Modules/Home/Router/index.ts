@@ -7,5 +7,6 @@ export default [
             title: 'Homepage',
             requiresAuth: false,
         }
-    }
+    },
+
 ]
