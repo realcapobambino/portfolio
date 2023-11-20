@@ -1,20 +1,19 @@
-<script setup lang="ts">
-import HeroComponent from "../Components/HeroComponent.vue"
+<script setup>
 import MainLayout from "../../../Common/Components/Layouts/MainLayout.vue"
-
+import LandingPage from "../Components/LandingPage.vue"
+import AboutMe from "../Components/AboutMe.vue"
 
 </script>
 
 <!--  -->
 <template>
     <MainLayout>
-        <template>
+        <template v-slot:default>
+            <LandingPage></LandingPage>
 
-            <!--  -->
-            <!-- <HeroComponent></HeroComponent> -->
+            <AboutMe></AboutMe>
 
         </template>
-
 
     </MainLayout>
 </template>

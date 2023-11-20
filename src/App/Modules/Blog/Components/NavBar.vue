@@ -1,6 +1,6 @@
 <template>
     <div>
-        HeroComponent
+
     </div>
 </template>
 

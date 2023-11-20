@@ -1,7 +1,9 @@
+import Home from '@/App/Modules/Home/Views/Home.vue'
+
 export default [
     {
         path: '/',
-        component: () => import('../Views/Home.vue'),
+        component: Home,
         name: 'Home',
         meta: {
             title: 'Homepage',

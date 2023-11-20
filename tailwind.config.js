@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  purge: [
-    './index.html', './src/**/*.{vue,js,ts,jsx,tsx}'
+  content: [
+    'index.html',
+    './src/**/*.{vue,js,ts}',
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
+
   darkMode: 'class',
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
 }

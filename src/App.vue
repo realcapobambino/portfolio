@@ -7,8 +7,8 @@ const route = useRoute()
 
 <template>
   <router-view v-slot="{ Component }" :key="route.path">
-    <Transition name="fade">
-      <component :is="Component" />
+    <Transition name="fade" tag="component" class="wrapper" mode="out-in">
+      <component :is="Component" class="wrapper" />
     </Transition>
   </router-view>
 </template>
@@ -24,5 +24,10 @@ const route = useRoute()
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+
+.wrapper {
+  height: 100%;
 }
 </style>
