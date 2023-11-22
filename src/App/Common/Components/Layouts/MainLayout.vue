@@ -1,14 +1,14 @@
 <template>
     <div class="">
-        <!-- <NavBar></NavBar> -->
+        <NavBar></NavBar>
 
         <!--  -->
         <div class="bg-gray-100 dark:bg-gray-700">
 
             <!--  -->
-            <slot></slot>
+            <!-- <slot></slot> -->
 
-            <DarkModeSwitch />
+            <!-- <DarkModeSwitch /> -->
 
 
 
@@ -18,9 +18,9 @@
 </template>
 
 <script setup lang="ts">
-// import NavBar from './NavBar.vue'
+import NavBar from './NavBar.vue'
 
-import DarkModeSwitch from '@/App/Common/Components/Buttons/DarkModeSwitch.vue'
+// import DarkModeSwitch from '@/App/Common/Components/Buttons/DarkModeSwitch.vue'
 
 // import FooterBar from './FooterBar.vue'
 

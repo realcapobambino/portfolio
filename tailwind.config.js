@@ -8,7 +8,11 @@ module.exports = {
 
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'LuckiestGuy': ['Luckiest Guy', 'cursive'],
+      }
+    },
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],
 }
