@@ -2,7 +2,7 @@
 
 <template>
     <!-- Footer Start -->
-    <footer class="bg-theme-dark-blue py-10">
+    <footer class="py-10">
         <div class="container mx-auto px-5">
             <div class="grid md:grid-cols-2">
                 <div class="flex flex-col md:flex-row md:space-x-12 items-center">

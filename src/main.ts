@@ -3,8 +3,14 @@ import App from './App.vue'
 import router from './router'
 import './assets/tailwind.css'
 import AOS from 'aos'
+import { Vue3Lottie } from 'vue3-lottie'
+import VueWriter from 'vue-writer'
 
 //
 AOS.init()
 //
-const app = createApp(App).use(router).mount('#app')
+const app = createApp(App)
+    .use(router)
+    .use(Vue3Lottie, { name: "Vue3Lottie" })
+    .use(VueWriter)
+    .mount('#app')

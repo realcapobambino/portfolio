@@ -1,16 +1,20 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap); */
+
 @tailwind base;
+
+
+
+
+
 @tailwind components;
 @tailwind utilities;
 
-
-
-@font-face {
-    font-family: 'BlackOpsOne';
-    /* Choose a suitable name for your font */
-    src: local('BlackOpsOne'), url('fonts/BlackOpsOne.ttf') format('ttf');
-    /* Add additional src lines for other font formats if necessary */
-
-    /* Additional font properties */
-    font-weight: normal;
-    font-style: normal;
-}
+/* @layer base {
+    html {
+        @apply text-neutral-900
+    }
+    html.dark {
+        @apply text-neutral-100
+        @apply bg-neutral-900
+    }
+} */

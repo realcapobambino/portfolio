@@ -6,11 +6,18 @@ const route = useRoute()
 </script>
 
 <template>
-  <router-view v-slot="{ Component }" :key="route.path">
-    <Transition name="fade" tag="component" class="wrapper" mode="out-in">
-      <component :is="Component" class="wrapper" />
-    </Transition>
-  </router-view>
+  <Suspense>
+    <router-view v-slot="{ Component }" :key="route.path">
+      <Transition name="fade" tag="component" class="wrapper" mode="out-in">
+        <component :is="Component" class="wrapper" />
+      </Transition>
+    </router-view>
+    <template #fallback>
+      <div>
+        <h1>Loading...</h1>
+      </div>
+    </template>
+  </Suspense>
 </template>
 
 
@@ -18,7 +25,7 @@ const route = useRoute()
 <style>
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.8s ease;
 }
 
 .fade-enter-from,

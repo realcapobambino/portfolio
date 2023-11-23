@@ -1,7 +1,9 @@
+import Blog from '@/App/Modules/Blog/Views/Blog.vue'
+
 export default [
     {
         path: '/blog',
-        component: () => import('../Views/Blog.vue'),
+        component: Blog,
         name: 'Blog',
         meta: {
             title: 'Blog',

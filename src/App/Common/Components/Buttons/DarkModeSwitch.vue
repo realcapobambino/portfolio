@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { Sun, Moon } from "lucide-vue-next";
+
 import { ref } from "vue";
+
 
 const darkMode = ref(false);
 
@@ -11,7 +14,8 @@ const toggleDarkMode = () => {
 
 
 <template>
-    <button @click="toggleDarkMode" class="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded">
-        {{ darkMode ? 'Light Mode' : 'Dark Mode' }}
-    </button>
+    <div @click="toggleDarkMode" class="fixed bottom-4 right-4 px-4 py-2 rounded border-2 border-double border-red-400">
+        <Sun v-if="darkMode" />
+        <Moon v-else />
+    </div>
 </template>
