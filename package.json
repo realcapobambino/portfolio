@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
-    "preview": "vite preview",
-    "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
+    "@babel/types": "^7.23.4",
     "@vercel/analytics": "^1.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.16",
