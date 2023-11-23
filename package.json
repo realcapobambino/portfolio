@@ -10,6 +10,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.16",
     "lucide-vue-next": "^0.292.0",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
+    "@types/aos": "^3.0.7",
     "@types/node": "^18.18.5",
     "@vitejs/plugin-vue": "^4.4.0",
     "@vue/tsconfig": "^0.4.0",

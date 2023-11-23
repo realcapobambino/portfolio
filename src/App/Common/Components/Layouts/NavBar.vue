@@ -6,7 +6,7 @@
             <div>
                 <router-link
                     class="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
-                    to="{ name: 'Home' }">
+                    :to="{ name: 'Home' }">
                     <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">capo.io</h1>
                 </router-link>
             </div>

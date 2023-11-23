@@ -5,7 +5,11 @@ import './assets/tailwind.css'
 import AOS from 'aos'
 import { Vue3Lottie } from 'vue3-lottie'
 import VueWriter from 'vue-writer'
+import { inject } from '@vercel/analytics';
 
+
+// vercel analytics
+inject();
 //
 AOS.init()
 //
