@@ -11,7 +11,7 @@ import AboutMe from "../Components/AboutMe.vue"
         <template v-slot:default>
             <LandingPage></LandingPage>
 
-            <AboutMe></AboutMe>
+            <!-- <AboutMe ></AboutMe> -->
 
         </template>
 
