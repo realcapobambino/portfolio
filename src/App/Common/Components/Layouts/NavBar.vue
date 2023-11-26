@@ -1,11 +1,11 @@
 <template>
     <!-- Main navigation container -->
-    <nav class=" flex w-full flex-wrap items-center justify-between py-6 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
+    <nav class="flex flex-wrap items-center justify-between w-full py-6 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
         data-te-navbar-ref>
-        <div class="flex w-full flex-wrap items-center justify-between px-3">
+        <div class="flex flex-wrap items-center justify-between w-full px-3">
             <div>
                 <router-link
-                    class="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                    class="flex items-center mx-2 my-1 text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                     :to="{ name: 'Home' }">
                     <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">capo.io</h1>
                 </router-link>
@@ -14,7 +14,7 @@
             <!-- Hamburger button for mobile view -->
             <div class="flex">
                 <button
-                    class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                    class="block px-2 bg-transparent border-0 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
                     type="button" data-te-collapse-init data-te-target="#navbarSupportedContent4"
                     aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- Hamburger icon -->
@@ -26,15 +26,14 @@
                         </svg>
                     </span>
                 </button>
-
             </div>
             <!-- Collapsible navbar container -->
             <div class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-4 lg:!flex lg:basis-auto"
                 id="navbarSupportedContent4" data-te-collapse-item>
                 <!-- Left links -->
-                <ul class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row" data-te-navbar-nav-ref>
+                <ul class="flex flex-col pl-0 mr-auto list-style-none lg:mt-1 lg:flex-row" data-te-navbar-nav-ref>
                     <!-- Home link -->
-                    <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1 hidden" data-te-nav-item-ref>
+                    <li class="hidden pl-2 my-4 lg:my-0 lg:pl-2 lg:pr-1" data-te-nav-item-ref>
                         <a class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                             aria-current="page" href="#" data-te-nav-link-ref>Dashboard</a>
                     </li>
@@ -66,11 +65,6 @@ import { onMounted } from "vue";
 onMounted(() => {
     initTE({ Collapse });
 })
-
-
-
-
-
 </script>
 
 <style scoped></style>
