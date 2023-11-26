@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    // "allowJs": true,
+    "allowJs": true,
     "lib": [
       "esnext",
       "dom"
@@ -32,6 +32,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "index.d.ts"
   ]
 }

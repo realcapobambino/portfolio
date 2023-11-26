@@ -34,6 +34,8 @@
 import { Vue3Lottie } from 'vue3-lottie';
 import LottieJSON from '@/assets/lottie/lottiejson.json'
 
+import VueWriter from 'vue-writer'
+
 
 
 const developerName = 'Charles Wahome';
