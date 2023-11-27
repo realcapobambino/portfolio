@@ -9,7 +9,7 @@ import { inject } from '@vercel/analytics';
 
 
 // vercel analytics
-inject();
+// inject();
 //
 AOS.init()
 //

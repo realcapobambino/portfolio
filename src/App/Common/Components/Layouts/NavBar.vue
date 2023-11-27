@@ -1,13 +1,15 @@
 <template>
     <!-- Main navigation container -->
-    <nav class="container flex flex-wrap items-center justify-between w-full py-4 mx-auto text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
+    <nav class="flex flex-wrap items-center justify-between w-full px-4 py-2 mx-auto lg:container text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
         data-te-navbar-ref>
         <div class="flex flex-wrap items-center justify-between w-full px-3">
             <div>
                 <router-link
-                    class="flex items-center mx-2 my-1 text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                    class="flex items-center gap-1 mx-2 my-1 text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                     :to="{ name: 'Home' }">
-                    <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">Charles Wahome
+                    <Component class="bg-primary-600" />
+                    <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">
+
                     </h1>
                 </router-link>
             </div>
@@ -19,13 +21,7 @@
                     type="button" data-te-collapse-init data-te-target="#navbarSupportedContent4"
                     aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- Hamburger icon -->
-                    <span class="[&>svg]:w-7">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
-                            <path fill-rule="evenodd"
-                                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
+                    <AlignJustify />
                 </button>
             </div>
             <!-- Collapsible navbar container -->
@@ -62,6 +58,8 @@ import {
     Collapse,
     initTE,
 } from "tw-elements";
+import { AlignJustify, Component } from 'lucide-vue-next';
+
 import { onMounted } from "vue";
 
 

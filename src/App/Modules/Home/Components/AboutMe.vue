@@ -1,6 +1,6 @@
 <!-- AboutMe.vue -->
 <template>
-    <div class="h-auto max-w-full bg-fixed bg-center bg-cover bg-about-background" id="about">
+    <div class="h-auto max-w-full bg-fixed bg-center bg-cover" id="about">
         <!-- Section: Design Block -->
         <section class="mb-32">
             <!-- Jumbotron -->
@@ -29,18 +29,6 @@
                             </p>
                         </div>
                     </div>
-                    <div class="mb-12 duration-200 ease-in-out lg:mb-0 hover:scale-105 ">
-                        <div
-                            class="relative z-[1] block rounded-2xl bg-[rgba(0, 0, 0, 0)] px-4 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[rgba(0, 0, 0, 0)] dark:shadow-black/20 md:px-12 lg:-ml-16 sm:-mt-5">
-                            <p class="mb-0 text-neutral-500 dark:text-neutral-300">
-                                In ac turpis justo. Vivamus auctor quam vitae odio feugiat
-                                pulvinar. Sed semper ligula sed lorem tincidunt dignissim. Nam
-                                sed cursus lectus. Proin non rutrum magna. Proin gravida,
-                                justo et imperdiet tristique, turpis nisi viverra est, nec
-                                posuere ex arcu sit amet erat.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -53,4 +41,15 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (min-width: 992px) {
+    .rotate-lg-6 {
+        transform: rotate(6deg);
+    }
+}
+
+/* Add a fancy border to the image */
+.fancy-border-radius {
+    border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
+}
+</style>
