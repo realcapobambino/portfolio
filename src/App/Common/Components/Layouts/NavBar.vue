@@ -1,13 +1,14 @@
 <template>
     <!-- Main navigation container -->
-    <nav class="flex flex-wrap items-center justify-between w-full py-6 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
+    <nav class="flex flex-wrap items-center justify-between w-full py-4 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
         data-te-navbar-ref>
         <div class="flex flex-wrap items-center justify-between w-full px-3">
             <div>
                 <router-link
                     class="flex items-center mx-2 my-1 text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                     :to="{ name: 'Home' }">
-                    <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">capo.io</h1>
+                    <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">Charles Wahome
+                    </h1>
                 </router-link>
             </div>
 
@@ -41,6 +42,7 @@
 
                 <div class="flex items-center">
                     <a href="#about" type="button" data-te-ripple-init data-te-ripple-color="light"
+                        data-te-smooth-scroll-init
                         class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xs font-bold font-LuckiestGuy uppercase leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
                         About
                     </a>
@@ -56,6 +58,7 @@
 
 <script setup lang="ts">
 import {
+    SmoothScroll,
     Collapse,
     initTE,
 } from "tw-elements";
@@ -63,7 +66,7 @@ import { onMounted } from "vue";
 
 
 onMounted(() => {
-    initTE({ Collapse });
+    initTE({ Collapse, SmoothScroll });
 })
 </script>
 

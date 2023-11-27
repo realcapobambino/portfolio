@@ -6,7 +6,7 @@
         </div>
 
 
-        <div v-else class="md:container mx-auto md:px-12">
+        <div v-else class="">
             <NavBar></NavBar>
 
 
@@ -38,7 +38,7 @@ function setLoadingToFalse() {
     loading.value = false; // Update the existing loading variable
 }
 
-setTimeout(setLoadingToFalse, 3000); // 3000 milliseconds (3 seconds)
+setTimeout(setLoadingToFalse, 1000); //
 
 
 

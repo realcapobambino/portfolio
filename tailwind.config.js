@@ -16,6 +16,9 @@ module.exports = {
         'LuckiestGuy': ['Luckiest Guy', 'cursive'],
         'RussoOne': ['Russo One', 'sans-serif'],
         'ShortStack': ['Short Stack', 'cursive'],
+      },
+      backgroundImage: {
+        'about-background': "url('./src/assets/images/aboutbackground.jpg')",
       }
     },
   },

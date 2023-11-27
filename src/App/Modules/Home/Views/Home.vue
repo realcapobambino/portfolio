@@ -10,8 +10,7 @@ import AboutMe from "../Components/AboutMe.vue"
     <MainLayout>
         <template v-slot:default>
             <LandingPage></LandingPage>
-
-            <!-- <AboutMe ></AboutMe> -->
+            <AboutMe></AboutMe>
 
         </template>
 
@@ -19,4 +18,4 @@ import AboutMe from "../Components/AboutMe.vue"
 </template>
 
 
-<style scoped></style>
+<style scoped></style>z
