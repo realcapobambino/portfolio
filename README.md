@@ -1,40 +1,63 @@
-# vue-project
+# My Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Recommended IDE Setup
+Welcome to my personal portfolio! This repository contains the source code for my portfolio website, showcasing my projects, skills, and more.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Table of Contents
 
-## Type Support for `.vue` Imports in TS
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Demo
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+![Portfolio Demo](path-to-screenshot-or-demo-gif)
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Check out the live demo [here](https://charleswahome.me).
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Vue.js](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.io/)
 
-## Project Setup
 
-```sh
-npm install
-```
+## Features
 
-### Compile and Hot-Reload for Development
+- **Responsive Design:** The portfolio is designed to be responsive and accessible on various devices.
+- **Project Showcase:** Highlight your best projects with descriptions, images, and links.
+- **Skills Section:** Showcase your skills and technologies you are proficient in.
+- **Contact Form:** Allow visitors to get in touch with you through a contact form.
+- **Vue.js Components:** Leverage Vue.js for building interactive and dynamic components.
+- **Tailwind CSS Styling:** Use Tailwind CSS for efficient and customizable styling.
+- **Supabase Integration:** Integrate Supabase for handling data storage and backend functionalities.
 
-```sh
-npm run dev
-```
+## Installation
 
-### Type-Check, Compile and Minify for Production
+1. Clone the repository:
 
-```sh
-npm run build
-```
+   ```bash
+   git clone https://github.com/realcapobambino/portfolio.git
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd portfolio
+
+3. Install all the dependencies:
+
+    ```bash
+    bun install
+
+4. Start the development server
+
+    ```bash
+    bun run dev
+
+
+
