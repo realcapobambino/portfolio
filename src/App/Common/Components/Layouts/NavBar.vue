@@ -1,6 +1,6 @@
 <template>
     <!-- Main navigation container -->
-    <nav class="flex flex-wrap items-center justify-between w-full py-4 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
+    <nav class="container flex flex-wrap items-center justify-between w-full py-4 mx-auto text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
         data-te-navbar-ref>
         <div class="flex flex-wrap items-center justify-between w-full px-3">
             <div>
