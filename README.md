@@ -84,6 +84,7 @@ If you'd like to contribute to the project, follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
+
+## Contact
 
 Feel free to reach out to me via email at charleswkariuki007@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/charleswahome/).
