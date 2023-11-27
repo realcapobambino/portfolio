@@ -10,13 +10,12 @@ Welcome to my personal portfolio! This repository contains the source code for m
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
 
 ## Demo
 
-![Portfolio Demo](path-to-screenshot-or-demo-gif)
+![Portfolio Demo](screenshot.png)
 
 Check out the live demo [here](https://charleswahome.me).
 
@@ -59,5 +58,32 @@ Check out the live demo [here](https://charleswahome.me).
     ```bash
     bun run dev
 
+## Contributing
 
+If you'd like to contribute to the project, follow these steps:
 
+1. Fork the repository.
+
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature/new-feature.
+
+3. Commit your changes:
+
+    ```bash
+    git commit -m 'Add new feature'.
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/new-feature.
+
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Contact
+
+Feel free to reach out to me via email at charleswkariuki007@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/charleswahome/).
