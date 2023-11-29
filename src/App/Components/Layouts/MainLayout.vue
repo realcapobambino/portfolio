@@ -25,7 +25,6 @@
 <script setup lang="ts">
 import { Vue3Lottie } from "vue3-lottie";
 import ProcessingLoader from '@/assets/lottie/processing.json'
-// import { forceLoader } from '@/App/Common/Composables/forceLoader'
 import NavBar from './NavBar.vue'
 import DarkModeSwitch from '@/App/Components/Buttons/DarkModeSwitch.vue'
 import FooterBar from './FooterBar.vue'
@@ -35,7 +34,7 @@ import { ref } from "vue";
 let loading = ref(true);
 
 function setLoadingToFalse() {
-    loading.value = false; // Update the existing loading variable
+    loading.value = false;
 }
 
 setTimeout(setLoadingToFalse, 1000); //
