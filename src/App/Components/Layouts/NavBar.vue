@@ -7,9 +7,9 @@
                 <router-link
                     class="flex items-center gap-1 mx-2 my-1 text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                     :to="{ name: 'Home' }">
-                    <Component class="bg-primary-600" />
+                    <Component class="w-16 h-16 text-blue-500" />
                     <h1 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-LuckiestGuy">
-
+                        capo
                     </h1>
                 </router-link>
             </div>
@@ -39,7 +39,7 @@
                 <div class="flex items-center">
                     <a href="#about" type="button" data-te-ripple-init data-te-ripple-color="light"
                         data-te-smooth-scroll-init
-                        class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xs font-bold font-LuckiestGuy uppercase leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
+                        class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xl flex-col-reverseont-bold font-LuckiestGuy uppercase leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
                         About
                     </a>
                     <!-- <router-link :to="{ name: 'Blog' }" data-te-ripple-init data-te-ripple-color="light"

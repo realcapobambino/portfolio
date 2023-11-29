@@ -11,7 +11,7 @@
                             class="h-auto max-w-full mx-auto duration-200 ease-in-out rounded-full shadow-lg xs:w-1/3 lg:rounded-2xl lg:w-full dark:shadow-black/20 hover:scale-105"
                             alt="Charles Wahome" />
                     </div>
-                    <div class="mb-12 duration-200 ease-in-out lg:mb-0 hover:scale-105 ">
+                    <div class="mb-12 duration-200 ease-in-out lg:mb-0 ">
                         <div
                             class="relative z-[1] block rounded-2xl bg-[rgba(0, 0, 0, 0)] px-4 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[rgba(0, 0, 0, 0)] dark:shadow-black/20 md:px-12 lg:-ml-16 sm:-mt-10">
                             <h2 class="mb-8 text-3xl font-bold text-neutral-500 dark:text-neutral-300">Charles Kariuki
@@ -21,11 +21,13 @@
                                 Full Stack Developer
                             </h4>
                             <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                In ac turpis justo. Vivamus auctor quam vitae odio feugiat
-                                pulvinar. Sed semper ligula sed lorem tincidunt dignissim. Nam
-                                sed cursus lectus. Proin non rutrum magna. Proin gravida,
-                                justo et imperdiet tristique, turpis nisi viverra est, nec
-                                posuere ex arcu sit amet erat.
+                                Welcome to my digital playground! As a passionate full-stack developer, I navigate the
+                                ever-evolving landscape of technology with an unwavering commitment to crafting seamless,
+                                scalable, and innovative solutions. With a keen eye for detail and a love for
+                                problem-solving, I thrive on turning complex challenges into elegant code. My journey in the
+                                realm of web development is a testament to my dedication to building not just functional,
+                                but truly exceptional digital experiences. Let's embark on this coding adventure together,
+                                where creativity meets functionality, and every line of code tells a story.
                             </p>
                         </div>
                     </div>

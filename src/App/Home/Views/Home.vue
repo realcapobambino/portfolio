@@ -10,8 +10,8 @@ import SkillsSection from "../Components/SkillsSection.vue";
 <template>
     <MainLayout>
         <template v-slot:default>
-            <!-- <LandingPage></LandingPage> -->
-            <!-- <AboutMe></AboutMe> -->
+            <LandingPage></LandingPage>
+            <AboutMe></AboutMe>
             <!-- <SkillsSection></SkillsSection> -->
 
         </template>

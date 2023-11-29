@@ -1,7 +1,7 @@
 <template>
     <div class="bg-neutral-50 dark:bg-neutral-900">
 
-        <div v-if="loading" class="h-screen">
+        <div v-if="loading" class="h-screen overflow-hidden">
             <Vue3Lottie :animation-data="ProcessingLoader" :height="500" :width="500" />
         </div>
 
