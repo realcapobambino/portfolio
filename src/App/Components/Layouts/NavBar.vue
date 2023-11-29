@@ -42,10 +42,10 @@
                         class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xs font-bold font-LuckiestGuy uppercase leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
                         About
                     </a>
-                    <router-link :to="{ name: 'Blog' }" data-te-ripple-init data-te-ripple-color="light"
+                    <!-- <router-link :to="{ name: 'Blog' }" data-te-ripple-init data-te-ripple-color="light"
                         class="mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xs font-bold font-LuckiestGuy uppercase leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 ">
                         Blog
-                    </router-link>
+                    </router-link> -->
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import Home from '@/App/Modules/Home/Views/Home.vue';
+import Home from '@/App/Home/Views/Home.vue';
 
 export default [
     {
