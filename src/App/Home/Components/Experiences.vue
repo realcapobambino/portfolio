@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mt-8">
+    <div class="mx-auto mt-8 lg:container">
         <div class="text-center dark-mode-text">
             <h1 class="mb-2 text-4xl font-bold font-RussoOne">Experiences</h1>
             <h2 class="font-RussoOne">Professional and Academic</h2>
@@ -31,8 +31,8 @@
             </div>
 
 
-            <div class="hidden mx-4 border-l-2 h-60 border-neutral-900 dark:bg-neutral-50 lg:block"></div>
-            <div class="mb-4 border-t-2 border-neutral-900 dark:bg-neutral-50 lg:hidden"></div>
+            <div class="hidden mx-4 border-l-2 max-h-fit border-neutral-900 dark:border-neutral-50 lg:block"></div>
+            <div class="block mx-auto mb-4 border-t-2 w-28 border-neutral-900 dark:border-neutral-50 lg:hidden"></div>
 
             <div class="mt-6 text-center lg:text-left lg:w-1/2 lg:pr-4 lg:mt-0 dark-mode-text">
 
