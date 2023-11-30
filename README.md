@@ -17,13 +17,12 @@ Welcome to my personal portfolio! This repository contains the source code for m
 
 ![Portfolio Demo](screenshot.png)
 
-Check out the live demo [here](https://charleswahome.me).
+Check out website [here](https://kariuki.tech).
 
 ## Technologies Used
 
 - [Vue.js](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Supabase](https://supabase.io/)
 
 
 ## Features
@@ -31,10 +30,14 @@ Check out the live demo [here](https://charleswahome.me).
 - **Responsive Design:** The portfolio is designed to be responsive and accessible on various devices.
 - **Project Showcase:** Highlight your best projects with descriptions, images, and links.
 - **Skills Section:** Showcase your skills and technologies you are proficient in.
-- **Contact Form:** Allow visitors to get in touch with you through a contact form.
 - **Vue.js Components:** Leverage Vue.js for building interactive and dynamic components.
 - **Tailwind CSS Styling:** Use Tailwind CSS for efficient and customizable styling.
-- **Supabase Integration:** Integrate Supabase for handling data storage and backend functionalities.
+
+## To Do
+
+- **Projects Section**
+- **Contact Form**
+- **Blog**
 
 ## Installation
 
@@ -81,10 +84,9 @@ If you'd like to contribute to the project, follow these steps:
 
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
 Feel free to reach out to me via email at charleswkariuki007@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/charleswahome/).
+
+## Made with ♥️ with VueJs
