@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import './assets/tailwind.css'
 import Vue3Lottie from 'vue3-lottie'
-// import VueWriter from 'vue-writer'
-import { inject } from '@vercel/analytics';
+// import { inject } from '@vercel/analytics';
+import VueMeta from 'vue-meta'
+
+
 
 
 // vercel analytics
@@ -15,5 +17,6 @@ import { inject } from '@vercel/analytics';
 const app = createApp(App)
     .use(router)
     .use(Vue3Lottie)
-    // .use(VueWriter)
+    .use(VueMeta)
+
     .mount('#app')
