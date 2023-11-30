@@ -50,7 +50,7 @@
                         data-aos="fade-up" :data-aos-duration="300">
                         <img :src="language.icon" :alt="language.name" :class="language.class" alt=""
                             class="w-16 h-16 mx-auto">
-                        <p class="mt-2">{{ language.name }}</p>
+                        <p class="p-2 m-2 dark-mode-text">{{ language.name }}</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     <div v-for="framework in frameworks" :key="framework.name" class="text-center font-ShortStack"
                         data-aos="fade-up" :data-aos-duration="300">
                         <img :src="framework.icon" :alt="framework.name" :class="class" class="w-16 h-16 mx-auto">
-                        <p class="mt-2">{{ framework.name }}</p>
+                        <p class="p-2 m-2 dark-mode-text">{{ framework.name }}</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                     <div v-for="database in databases" :key="database.name" class="text-center font-ShortStack"
                         data-aos="fade-up" :data-aos-duration="300">
                         <img :src="database.icon" :alt="database" :class="database.class" class="w-16 h-16 mx-auto">
-                        <p class="mt-2">{{ database.name }}</p>
+                        <p class="p-2 m-2 dark-mode-text">{{ database.name }}</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div v-for="tool in tools" :key="tool.name" class="text-center font-ShortStack" data-aos="fade-up"
                         :data-aos-duration="300">
                         <img :src="tool.icon" :alt="tools.name" class="w-16 h-16 mx-auto">
-                        <p class="mt-2">{{ tool.name }}</p>
+                        <p class="p-2 m-2 dark-mode-text">{{ tool.name }}</p>
                     </div>
                 </div>
             </div>
