@@ -14,6 +14,7 @@
             <slot></slot>
 
             <DarkModeSwitch />
+            <!-- <BackToTop /> -->
 
 
 
@@ -27,6 +28,7 @@ import { Vue3Lottie } from "vue3-lottie";
 import ProcessingLoader from '@/assets/lottie/processing.json'
 import NavBar from './NavBar.vue'
 import DarkModeSwitch from '@/App/Components/Buttons/DarkModeSwitch.vue'
+// import BackToTop from "../Buttons/BackToTop.vue";
 import FooterBar from './FooterBar.vue'
 
 import { ref } from "vue";
