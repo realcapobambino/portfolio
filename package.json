@@ -1,6 +1,6 @@
 {
-  "name": "charles-wahome",
-  "version": "0.0.1",
+  "name": "kariuki.tech",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "vite",
