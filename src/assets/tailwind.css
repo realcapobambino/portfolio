@@ -9,12 +9,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-    html {
-        @apply text-neutral-900
-    }
-    html.dark {
-        @apply text-neutral-100
-        @apply bg-neutral-900
-    }
-} */
+
+.dark-mode-text {
+    @apply text-neutral-900 dark:text-neutral-100
+}
