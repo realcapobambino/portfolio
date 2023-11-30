@@ -9,9 +9,9 @@ import SkillsSection from "../Components/SkillsSection.vue";
 <!--  -->
 <template>
     <MainLayout>
-        <template v-slot:default>
-            <LandingPage></LandingPage>
-            <AboutMe></AboutMe>
+        <template v-slot:default class="">
+            <LandingPage class=""></LandingPage>
+            <AboutMe class=""></AboutMe>
             <!-- <SkillsSection></SkillsSection> -->
 
         </template>

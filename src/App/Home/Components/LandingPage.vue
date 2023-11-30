@@ -4,15 +4,16 @@
             <div class="grid items-center lg:grid-cols-2">
                 <div class="mt-4 lg:mt-0">
                     <h1
-                        class="mt-2 mb-6 text-5xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 md:text-6xl xl:text-7xl">
+                        class="mt-2 mb-6 text-5xl font-bold tracking-tight font-RussoOne text-neutral-900 dark:text-neutral-100 md:text-6xl xl:text-7xl">
                         Hello<span class="text-primary">.</span> <br /><span class="text-primary font-RussoOne">I am
                             {{ developerName }}</span>
                     </h1>
                     <VueWriter :eraseSpeed="50" :typeSpeed="100" :array="roles" :caret="`underscore`"
                         class="mt-2 mb-2 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 font-ShortStack" />
                     <div class="tracking-tight text-left text-neutral-900 dark:text-neutral-100 font-ShortStack">
-                        Architecting virtual adventures through code chronicles. Crafting scalable and evergreen software,
-                        infusing the web with artistry, pixel by pixel.
+                        A developer on a mission to bring ideas to life through clean and efficient code. With a focus on
+                        scalability and user-friendly design, I love turning concepts into functional and enjoyable digital
+                        experiences. Let's create something amazing together.
                     </div>
                     <div class="mt-4">
                         <a href="mailto:charleswkariuki007@gmail.com" type="button" data-te-ripple-init
