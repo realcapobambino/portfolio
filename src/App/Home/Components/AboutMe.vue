@@ -1,6 +1,6 @@
 
 <template>
-    <div class="container mx-auto mt-8">
+    <div class="min-h-screen px-4 mx-auto mt-8" id="about">
         <h2 class="mb-6 text-3xl font-bold text-center font-RussoOne dark-mode-text">About Me</h2>
         <div class="flex justify-center">
             <div class="">
