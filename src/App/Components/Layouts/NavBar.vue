@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex flex-wrap items-center justify-between px-4 py-2 lg:mx-auto lg:container text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-8"
+    <nav class="flex flex-wrap items-center justify-between px-4 py-2 lg:mx-auto lg:container text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 lg:py-4"
         data-te-navbar-ref>
         <div class="flex flex-wrap items-center justify-between w-full px-3">
             <div>

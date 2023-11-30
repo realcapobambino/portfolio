@@ -30,9 +30,7 @@ import NavBar from './NavBar.vue'
 import DarkModeSwitch from '@/App/Components/Buttons/DarkModeSwitch.vue'
 // import BackToTop from "../Buttons/BackToTop.vue";
 import FooterBar from './FooterBar.vue'
-
 import { ref } from "vue";
-
 let loading = ref(true);
 
 function setLoadingToFalse() {

@@ -11,6 +11,7 @@
     "@babel/types": "^7.23.4",
     "@supabase/supabase-js": "^2.38.5",
     "@vercel/analytics": "^1.1.1",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.4.16",
     "lucide-vue-next": "^0.292.0",
     "postcss": "^8.4.31",

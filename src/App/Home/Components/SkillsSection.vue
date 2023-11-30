@@ -31,13 +31,7 @@ const skills = ref([
     { id: 5, title: 'TailwindCSS' },
     { id: 6, title: 'Bootstrap' },
     { id: 7, title: 'Linux' },
-
-
 ])
-
-
-
-
 </script>
 
 <style scoped></style>
