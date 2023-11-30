@@ -10,21 +10,24 @@
         </div>
         <div class="mt-8 lg:flex">
             <div class="mt-6 lg:w-1/2 lg:pr-4 lg:mt-0">
-                <h3 class="text-xl font-bold dark-mode-text">Who am I ?</h3>
+                <h3 class="text-2xl font-extrabold dark-mode-text font-ShortStack">Who am I ?</h3>
                 <div class="dark-mode-text">
-                    <p class="p-2 mt-4">
-                        I'm Charles Wahome, a passionate full-stack developer with a flair for turning
-                        lines of code into impactful digital experiences. Here's a glimpse into what makes me tick:
+                    <p class="p-2 mt-4 font-ShortStack">
+                        <span class="text-primary">
+                            I'm Charles Wahome, a passionate full-stack developer with a flair for turning
+                            lines of code into impactful digital experiences.
+                        </span>
+                        Here's a glimpse into what makes me tick:
                         <br>
                         <br>
-                        🚀 Mission: Craft Digital Excellence
+                        <span class="text-lg font-bold">🚀 Mission: Craft Digital Excellence</span>
                         <br>
                         My journey in the tech realm is fueled by a commitment to crafting digital solutions that
                         not only meet expectations but exceed them. From conceptualization to deployment, I bring a
                         blend of creativity and precision to every project.
                         <br>
                         <br>
-                        💻 Tech Enthusiast & Penetration Tester
+                        <span class="text-lg font-bold">💻 Tech Enthusiast & Penetration Tester</span>
                         <br>
                         Beyond coding, I'm a tech enthusiast who finds joy in exploring the latest innovations. I'm
                         particularly fascinated by the world of penetration testing, where I delve into the
@@ -34,18 +37,18 @@
             </div>
             <div class="mt-6 lg:w-1/2 lg:pl-4 lg:mt-0">
                 <div class="dark-mode-text">
-                    <h3 class="text-xl font-bold">Contact Info: </h3>
-                    <div class="p-2 m-2">
-                        <strong>E-mail:</strong> charleswkariuki007@gmail.com
+                    <h3 class="text-xl font-bold font-RussoOne">Contact Info: </h3>
+                    <div class="p-2 m-2 font-ShortStack">
+                        <strong class="font-RussoOne">E-mail:</strong> charleswkariuki007@gmail.com
                     </div>
-                    <div class="p-2 m-2">
-                        <strong>Phone:</strong> +254 798 384 604
+                    <div class="p-2 m-2 font-ShortStack">
+                        <strong class="font-RussoOne">Phone:</strong> +254 798 384 604
                     </div>
-                    <div class="p-2 m-2">
-                        <strong>City:</strong> Nairobi, Kenya
+                    <div class="p-2 m-2 font-ShortStack">
+                        <strong class="font-RussoOne">City:</strong> Nairobi, Kenya
                     </div>
-                    <div class="p-2 m-2">
-                        <strong>Languages:</strong> English, Swahili, German, Japanese
+                    <div class="p-2 m-2 font-ShortStack">
+                        <strong class="font-RussoOne">Languages:</strong> English, Swahili, German, Japanese
                     </div>
                     <div class="social-wrap">
                         <div class="px-6 pt-6 ">
