@@ -1,8 +1,9 @@
 <template>
-    <div class="mx-auto mt-8 text-center lg:container dark-mode-text">
+    <div class="py-2 mx-auto mt-8 mb-8 text-center lg:container dark-mode-text">
         <h2 class="mb-6 text-4xl font-bold font-RussoOne">Skills</h2>
         <div class="grid grid-cols-3 gap-2 lg:grid-cols-6">
-            <div v-for="skill in skills" :key="skill.name" class="text-center" data-aos="fade-up" :data-aos-duration="300">
+            <div v-for="skill in skills" :key="skill.name" class="text-center font-ShortStack" data-aos="fade-up"
+                :data-aos-duration="300">
                 <img :src="skill.icon" :alt="skill.name" class="w-16 h-16 mx-auto" loading="lazy">
                 <p class="mt-2">{{ skill.name }}</p>
             </div>

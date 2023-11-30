@@ -5,7 +5,7 @@
         <div class="flex justify-center">
             <div class="">
                 <img src="@/assets/images/my-photo.jpg" alt="photo"
-                    class="w-[200px] h-[200px] overflow-hidden border-4 border-white rounded-full">
+                    class="w-[200px] h-[200px] overflow-hidden border-4 border-primary rounded-full">
             </div>
         </div>
         <div class="mt-8 lg:flex">
