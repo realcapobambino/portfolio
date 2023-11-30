@@ -13,7 +13,10 @@
                     <div class="tracking-tight text-left text-neutral-900 dark:text-neutral-100 font-ShortStack">
                         A developer on a mission to bring ideas to life through clean and efficient code. With a focus on
                         scalability and user-friendly design, I love turning concepts into functional and enjoyable digital
-                        experiences. Let's create something amazing together.
+                        experiences.
+                        <br>
+                        <br />
+                        Let's create something amazing together.
                     </div>
                     <div class="mt-4">
                         <a href="mailto:charleswkariuki007@gmail.com" type="button" data-te-ripple-init

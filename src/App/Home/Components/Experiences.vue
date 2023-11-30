@@ -7,7 +7,7 @@
         <div class="mt-8 lg:flex">
 
             <div class="mt-6 text-center lg:text-right lg:w-1/2 lg:pl-4 lg:mt-0 dark-mode-text">
-                <h3 class="mb-4 text-xl font-bold font-RussoOne">Academic Experiences</h3>
+                <h3 class="mb-4 text-xl font-bold underline font-RussoOne underline-offset-4">Academic Experiences</h3>
                 <div class="">
                     <div class="py-2">
                         <h4 class="font-RussoOne">September 2017 - February 2024</h4>
@@ -36,7 +36,7 @@
 
             <div class="mt-6 text-center lg:text-left lg:w-1/2 lg:pr-4 lg:mt-0 dark-mode-text">
 
-                <h3 class="mb-4 text-xl font-bold font-RussoOne">Professional Experiences</h3>
+                <h3 class="mb-4 text-xl font-bold underline underline-offset-4 font-RussoOne">Professional Experiences</h3>
                 <div class="">
                     <div class="py-2">
                         <h4 class="font-RussoOne">Nov, 2023 - Present</h4>
