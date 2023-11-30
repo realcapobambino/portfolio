@@ -43,10 +43,10 @@ const getSocialMediaIcon = (platform) => {
         <div class="p-2 m-2 border-t-2 border-primary">
 
         </div>
-        <div class="w-full text-center font-RussoOne">
+        <div class="w-full p-2 m-2 text-center font-RussoOne">
             Made with ♥️
         </div>
-        <div class="flex justify-center w-full">
+        <div class="flex justify-center w-full p-2 m-2">
             <h1 class="text-center dark-mode-text font-RussoOne">Powered by</h1>
             <svg viewBox="0 0 128 128" class="w-8 h-8">
                 <path
@@ -65,9 +65,9 @@ const getSocialMediaIcon = (platform) => {
         </div>
 
         <!--Copyright section-->
-        <div class="w-full p-4 text-center" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2023
-            <a class="text-whitehite" href="https://charleswahome.me">Charles Wahome</a>
+        <div class="w-full p-4 text-center font-ShortStack" style="background-color: rgba(0, 0, 0, 0.2)">
+            ©2023
+            <a class="dark-mode-text font-RussoOne" href="https://charleswahome.me">Kariuki Consultants Inc.</a>
         </div>
     </footer>
 </template>

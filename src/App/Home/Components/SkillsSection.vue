@@ -1,39 +1,39 @@
 <template>
-    <div class="container mx-auto">
-        <div class="py-2 mx-auto mt-8 mb-8 text-center lg:container dark-mode-text">
+    <div class="mx-auto lg:container">
+        <div class="py-2 mt-8 mb-8 text-center dark-mode-text">
             <h2 class="mb-6 text-4xl font-bold font-RussoOne">Skills</h2>
             <!--  -->
             <div class="">
-                <ul class="flex flex-row pl-0 mb-5 overflow-x-scroll text-center list-none border-b-0 lg:container"
-                    role="tablist" data-te-nav-ref>
+                <ul class="flex flex-row justify-between pl-0 mb-5 overflow-x-scroll list-none border-b-0" role="tablist"
+                    data-te-nav-ref>
                     <li role="presentation">
                         <a href="#tabs-languages"
-                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark-mode-text dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400 "
                             data-te-toggle="pill" data-te-target="#tabs-languages" data-te-nav-active role="tab"
                             aria-controls="tabs-languages" aria-selected="true">Languages</a>
                     </li>
                     <li role="presentation">
                         <a href="#tabs-frameworks"
-                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark-mode-text dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400 "
                             data-te-toggle="pill" data-te-target="#tabs-frameworks" role="tab"
                             aria-controls="tabs-frameworks" aria-selected="false">Frameworks & Libraries</a>
                     </li>
                     <li role="presentation">
                         <a href="#tabs-databases"
-                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark-mode-text dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400 "
                             data-te-toggle="pill" data-te-target="#tabs-databases" role="tab" aria-controls="tabs-databases"
                             aria-selected="false">Databases</a>
                     </li>
                     <li role="presentation">
                         <a href="#tabs-tools"
-                            class=" my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            class=" my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark-mode-text dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400 "
                             data-te-toggle="pill" data-te-target="#tabs-tools" role="tab" aria-controls="tabs-tools"
                             aria-selected="false">Tools</a>
                     </li>
 
                     <!-- <li role="presentation">
                     <a href="#tabs-systems"
-                        class=" my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                        class=" my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark-mode-text dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
                         data-te-toggle="pill" data-te-target="#tabs-systems" role="tab" aria-controls="tabs-systems"
                         aria-selected="false">Systems</a>
                 </li> -->

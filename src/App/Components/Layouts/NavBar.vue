@@ -40,11 +40,21 @@
                     </li>
                 </ul>
 
-                <div class="flex items-center">
+                <div class="flex items-center justify-end">
                     <a href="#about" type="button" data-te-ripple-init data-te-ripple-color="light"
                         data-te-smooth-scroll-init overflow-scroll data-te-easing="easeInOutQuart"
                         class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xl flex-col-reverseont-bold font-bold font-ShortStack leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
                         about
+                    </a>
+                    <a href="#experiences" type="button" data-te-ripple-init data-te-ripple-color="light"
+                        data-te-smooth-scroll-init overflow-scroll data-te-easing="easeInOutQuart"
+                        class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xl flex-col-reverseont-bold font-bold font-ShortStack leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
+                        experiences
+                    </a>
+                    <a href="#skills" type="button" data-te-ripple-init data-te-ripple-color="light"
+                        data-te-smooth-scroll-init overflow-scroll data-te-easing="easeInOutQuart"
+                        class="cursor-pointer mr-3 inline-block rounded px-6 pb-2 pt-2.5 text-xl flex-col-reverseont-bold font-bold font-ShortStack leading-normal text-neutral-900 dark:text-neutral-100 transition duration-150 ease-in-out dark:hover:text-primary-600 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 motion-reduce:transition-none">
+                        skills
                     </a>
                     <!--                     
                         ADD LINK TO BLOG
