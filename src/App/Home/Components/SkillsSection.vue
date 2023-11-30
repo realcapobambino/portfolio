@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto lg:container">
+    <div class="mx-auto lg:container" id="skills">
         <div class="py-2 mt-8 mb-8 text-center dark-mode-text">
             <h2 class="mb-6 text-4xl font-bold font-RussoOne">Skills</h2>
             <!--  -->
