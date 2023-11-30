@@ -89,4 +89,5 @@ If you'd like to contribute to the project, follow these steps:
 
 Feel free to reach out to me via email at charleswkariuki007@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/charleswahome/).
 
-## Made with ♥️ with VueJs
+## Made with ♥️
+## Powered by VueJs
