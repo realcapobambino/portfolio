@@ -14,7 +14,7 @@ import Experiences from "../Components/Experiences.vue";
             <AboutMe class=""></AboutMe>
             <Experiences></Experiences>
 
-            <!-- <SkillsSection></SkillsSection> -->
+            <SkillsSection></SkillsSection>
 
         </template>
 

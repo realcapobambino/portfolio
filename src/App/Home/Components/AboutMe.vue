@@ -1,6 +1,6 @@
 
 <template>
-    <div class="min-h-screen px-4 mx-auto mt-8" id="about">
+    <div class="container px-4 mx-auto mt-8 overflow-y-scroll" id="about">
         <h2 class="mb-6 text-3xl font-bold text-center font-RussoOne dark-mode-text">About Me</h2>
         <div class="flex justify-center">
             <div class="">
@@ -54,7 +54,7 @@
                         <div class="px-6 pt-6 ">
                             <div class="flex justify-start mb-6">
                                 <a v-for="(link, platform) in socialMediaLinks" :key="platform" :href="link" type="button"
-                                    class="m-2 text-white uppercase transition duration-150 ease-in-out border-2 border-white rounded-full h-9 w-9 hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+                                    class="m-2 text-white uppercase transition duration-150 ease-in-out border-2 border-white rounded-full h-9 w-9 hover:scale- hover:bg-opacity-5 focus:outline-none focus:ring-0"
                                     data-te-ripple-init data-te-ripple-color="light">
                                     <component :is="getSocialMediaIcon(platform)"
                                         class="m-1 text-gray-500 dark:text-gray-100" />
