@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.kariuki.tech/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
+  <!-- About  -->
+  <url>
+    <loc>https://www.kariuki.tech/#about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://www.kariuki.tech/</loc>
-  <loc>https://www.charleswahome.me/</loc>
-  <lastmod>2023-11-30T12:43:07+00:00</lastmod>
-</url>
+  <!-- Experiences -->
+  <url>
+    <loc>https://www.kariuki.tech/#experiences</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-
-</urlset>
+  <!-- Skills -->
+  <url>
+    <loc>https://www.kariuki.tech/#skills</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
