@@ -16,7 +16,7 @@ coverage
 package-lock.json
 bun.lockb
 screenshot.png
-
+bun.*
 /cypress/videos/
 /cypress/screenshots/
 
