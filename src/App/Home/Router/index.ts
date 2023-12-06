@@ -1,4 +1,5 @@
 import Home from '@/App/Home/Views/Home.vue';
+import NotFound from '@/App/Views/NotFound.vue';
 
 export default [
     {
@@ -10,5 +11,11 @@ export default [
             requiresAuth: false,
         }
     },
+    // 404 PAGE
+    {
+        path: '/:catchAll(.*)',
+        name: 'NotFound',
+        component: NotFound
+    }
 
 ]
