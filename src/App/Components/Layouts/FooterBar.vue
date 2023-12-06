@@ -30,7 +30,7 @@ const getSocialMediaIcon = (platform) => {
 
 <template>
     <!--Footer container-->
-    <footer class="flex flex-col items-center w-full text-center dark-mode-text">
+    <footer class="bottom-0 flex flex-col items-center w-full text-center dark-mode-text">
         <div class="px-6 pt-6 ">
             <div class="flex justify-center mb-6">
                 <a v-for="(link, platform) in socialMediaLinks" :key="platform" :href="link" type="button"
