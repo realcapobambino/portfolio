@@ -1,6 +1,9 @@
+import Vue from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import type { RouteRecordRaw } from "vue-router";
 import moduleRoutes from '../App/router'
+import Meta from 'vue-meta';
+
 
 
 let routes: Array<RouteRecordRaw> = moduleRoutes;
